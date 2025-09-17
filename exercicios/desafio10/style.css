@@ -13,6 +13,9 @@ h1#principal{
     width: 430px;
     text-align: center;
 }
+.c1 p{
+    text-align: center;
+}
 .menu{
     justify-self: start;
     background-color: #1A5D38;
