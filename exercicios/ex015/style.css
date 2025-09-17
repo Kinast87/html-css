@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    background-color: aqua;
+    text-decoration: underline;
+}
+a:visited{
+    color: darkred
+}

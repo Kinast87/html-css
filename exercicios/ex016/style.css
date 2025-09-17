@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+      background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border: 10px solid pink;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 10px 10px 20px;
+}
+p{
+    text-indent: 20px;
+}
