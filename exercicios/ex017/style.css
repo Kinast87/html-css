@@ -52,11 +52,13 @@ div#b5{
 }
 .fundo005{
     height: 100vh; /*conteúdo se adapta ao tamanho do visor. Para ocupar 100% da tela preciso configurar tanto height, quanto background-size*/
-    background-color: black;
-    background-image: url(imagens/wallpaper002.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;/*contain mostra 100% da imagem, porém faz cortes. Cover ajusta a imagem ao tamanho da tela.*/
+   /*contain mostra 100% da imagem, porém faz cortes. Cover ajusta a imagem ao tamanho da tela.*/
+    /*background-attachment: fixed; fixa a imagem de fundo, o conteúdo rola, mas a imagem não*/
+    /*shorthand -background segue a seguinte ordem
+    color> image > position > repeat > [size] > attachment*/
+
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+    background-size:  cover; /*size não está funcionando na shorthand*/
 }
 main{
     background-color: white;
