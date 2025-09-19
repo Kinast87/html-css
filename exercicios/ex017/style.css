@@ -50,3 +50,19 @@ div#b5{
     background-repeat: no-repeat;
     background-position: right bottom;
 }
+.fundo005{
+    height: 100vh; /*conteúdo se adapta ao tamanho do visor. Para ocupar 100% da tela preciso configurar tanto height, quanto background-size*/
+    background-color: black;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;/*contain mostra 100% da imagem, porém faz cortes. Cover ajusta a imagem ao tamanho da tela.*/
+}
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
