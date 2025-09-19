@@ -68,3 +68,21 @@ main{
     border: 1px solid darkblue;
     border-radius: 15px;
 }
+ #container{
+    height: 500px;
+    background: purple;
+    padding: 10px;
+    
+ }
+ #conteudo{
+    position: absolute; /*permite configurar left e top*/
+    height: 200px;
+    width: 400px;
+    background: yellow;
+    /*margin: auto; centraliza conteúdo horizontalmente*/
+
+    /*abaixo configuração para centralizar horizontalmente e verticalmente*/
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+ }
