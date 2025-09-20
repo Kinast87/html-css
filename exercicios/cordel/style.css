@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+body{
+    background-color: black;
+}
+header{
+    text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    font-family: cursive, sans-serif;
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+header p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+
+}
+.normal{
+    padding: 2em;
+    background-color: white;
+    font-size: 3.5vw;
+    font-family: cursive, sans-serif;
+    line-height: 2em;
+}
+.img{
+    font-size: 3.5vw;
+    font-family: cursive, sans-serif;
+    line-height: 2em;  
+}
+#joaninha{
+    background: white url(ladybug-insect-beetle-nature-thumbnail.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+#papel{
+    background: white url(download.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+.img p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding: 2vh;
+}
