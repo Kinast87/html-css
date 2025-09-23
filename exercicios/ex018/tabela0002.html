@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    anatomia de tabelas
+    Table
+        Thead --- cabeça
+        tbooy --- corpo
+        tfoot --- rodapé
+            th --- títulos
+            td ---- dados
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>45.578.964</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>45.578.964</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>45.578.964</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>45.578.964</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td>00000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
