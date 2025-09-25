@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inum">Ano: </label>
+            <input type="number" name="num" id="inum" min="1900" max="2020" oninput= "calcIdade()">
+        </p>
+        <p>
+            <label for="idade">Sua idade:</label>
+            <output id="idade">0</output>
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    </form>
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(inun.value)
+        }
+
+    </script>
+</body>
+</html>
