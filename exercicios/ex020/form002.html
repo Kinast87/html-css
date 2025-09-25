@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuários</title>
+</head>
+<body>
+    <!--required torna obrigatório preencher o campo-->
+    <h1>Teste de formulário</h1>
+    <form action="cadatro.php" method="post">
+        <p>
+            <label for="iusu">Usuário:</label> <input type="text" name="usu" id="iusu" required minlength="3" maxlength="10" placeholder="Digite seu usuário">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha" required minlength="6" maxlength="20" placeholder="Digite sua senha">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
