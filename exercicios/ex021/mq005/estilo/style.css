@@ -4,7 +4,25 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+@media screen and (min-width:768px){
+    #itens{
+        width: 100%;
+        display: block; 
+        text-align: center;
+    }
+    div{
+        display: none;
+    }
+    ul{
+        display: inline-flex;
+    };
+    li{
+        display: inline-block;
+    }
+    main{
+        width: 768px;
+    }
+}
 html, body{
     background-color: lightgrey;
 }
@@ -16,12 +34,10 @@ header > h1{
     text-align: center;
 }
 menu{
-    display: block;
-}
-menu#itens{
     list-style-type: none;
     display: none;
 }
+
 menu#itens > ul {
     list-style-type: none;
 }
