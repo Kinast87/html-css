@@ -10,7 +10,8 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        
+        <i id = 'burguer' class=" material-icons" onclick="clickMenu()">menu</i>
         <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
@@ -30,11 +31,14 @@
         </article>
     </main>
     <script>
-        function clickMenu(){
-            var menu = document.getElementById("menu");
-            itens.style.display = 'block'
-        }
-        
+        function clickMenu() {
+    let itens = document.getElementById('itens')
+    if (itens.style.display === 'block') {
+        itens.style.display = 'none'
+    } else {
+        itens.style.display = 'block'
+    }
+}
     </script>
 </body>
 </html>

@@ -18,9 +18,12 @@ header > h1{
 menu{
     display: block;
 }
-menu > ul{
+menu#itens{
     list-style-type: none;
     display: none;
+}
+menu#itens > ul {
+    list-style-type: none;
 }
 
 menu > ul > li > a{
