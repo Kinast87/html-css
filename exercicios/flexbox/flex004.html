@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+    /*
+    justify-content: flex-start --> primeiro item fica colado no main-start e o espaço em branco dica encostado no main-end
+    flex-end --> último item fica colado no main-end e o espaço em branco fica no main-start
+    justify-content: center --> centralizar os itens e espaços em branco divididos de forma iguais nas pontas
+    justify-content: space-between cola o primeiro e o último nas pontas e distribui o resto no meio
+    justify-content: space-evenly distribui todos os itens com o mesmo espaçamento entre eles
+    justify-content: space-around vai dividir o espaço pela quantidade itens do container e vai centralizar cada item dentro de um desses espaços    
+
+    para posicionar os elementos no eixo cross-axis temos os mesmas posições, porém usando align-items ao invés de justify-content
+    */
+        .container{
+            background-color: red;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+        }
+        .item{
+            background-color: yellow;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>    
+</body>
+</html>

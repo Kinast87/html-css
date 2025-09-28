@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+    /*Direções do  flex:
+    row - esquerda para direita
+    row-reverse - direita para esquerda
+    colum - cima para baixo
+    colum-reverse: baixo para cima.
+    
+    
+    eixos axis:
+    main-axis: eixo horizontal no row e eixo vertical no colum 
+    cross-axis: eixo vetical no row e eixo horizontal no colum
+    ambos possuem um main-start (primeiro elemento) e um main-end (último elemento)
+    
+    */
+        .container{
+            background-color: red;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .item{
+            background-color: yellow;
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        /*flex-wrap:
+        flex-wrap: nowrap --> o conteúdo se expreme sem quebrar
+        flex-wrap:  wrap --> o conteúdo quebra na direção do cross-axis
+        flex-wrap: wrap-reverse  --> o conteúdo quebra na direção contrária do cross-axis*/
+        .container{
+            background-color: red;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .item{
+            background-color: yellow;
+            flex: auto;  
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Exemplo de quebra de bloco A</div>
+        <div class="item">Exemplo de quebra de bloco B</div>
+        <div class="item">Exemplo de quebra de bloco C</div>
+        <div class="item">Exemplo de quebra de bloco D</div>
+        <div class="item">Exemplo de quebra de bloco E</div>
+        <div class="item">Exemplo de quebra de bloco F</div>
+        <div class="item">Exemplo de quebra de bloco G</div>
+    </div>    
+</body>
+</html>
