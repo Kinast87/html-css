@@ -25,12 +25,34 @@
             background-color: red;
             width: 50vw;
             height: 50vw;
+            align-content: center;
+            text-align: center;
+            border: 2px solid black;
+            flex-basis: 33vw;/*determina o tamanho dos itens*/
+        }
+        #primeiro{
+            order: -1;
+            align-self: flex-start;
+        }
+        #segundo{
+            order: 0;
+            align-self: auto;
+        }
+        #terceiro{
+            align-self: flex-end;
+            order: 1;
         }
     </style>
 </head>
 <body><main>
-        <section>
-            <h1>centralizar</h1>
+        <section id="terceiro">
+            <h1>terceiro</h1>
+        </section>
+        <section id="primeiro">
+            <h1>primeiro</h1>
+        </section>
+        <section id="segundo">
+            <h1>segundo</h1>
         </section>
     </main>
 </body>
