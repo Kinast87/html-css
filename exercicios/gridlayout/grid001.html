@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridLayout</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            display: grid;
+            background-color: aqua;
+        /*Cada "auto cria uma coluna*/
+            grid-template-columns: auto auto;
+        /*determina a altura de cada linha*/
+            grid-template-rows: 100px 50px 20px;
+        /*cria um espaço entre cada item*/
+            gap: 20px;
+        }
+        
+
+        .item{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
